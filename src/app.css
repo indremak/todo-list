@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to left, rgb(48, 163, 115), rgb(53, 233, 164));
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 400px;
+  text-align: center;
+}
+
+.header {
+  color: #fefefe;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.new-text-input-label {
+  display: flex;
+}
+
+.new-text-input {
+  border-radius: 5px 0 0 5px;
+  border: 2px solid rgb(58, 56, 56);
+  border-right: none;
+  width: 200px;
+  padding: 1px 2px;
+  background-color: #eee;
+}
+
+.filter-select {
+  width: 130px;
+  height: 31px;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(58, 56, 56);
+  color: #000;
+  background-color: #eee;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 45%;
+}
+
+.btn-add {
+  height: 31px;
+  color: rgb(13, 110, 13);
+  background-color: #eee;
+  padding: 0 2px 0 0;
+  margin-top: 0px;
+  border-radius: 0 5px 5px 0;
+  border: 2px solid rgb(58, 56, 56);
+  border-left: none;
+}
+
+.list {
+  font-size: 20px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin-top: 10px;
+  background: #eee;
+  border-radius: 5px;
+  border: 2px solid rgb(58, 56, 56);
+}
+
+.item-name {
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto 0 10px;
+  word-break: break-all;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+button {
+  background-color: rgba(240, 248, 255, 0);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  padding: 1px;
+  outline: none;
+  padding-top: 2px;
+}
+
+.btn-remove {
+  color: rgb(218, 29, 29);
+}
+
+.btn-done {
+  color: rgb(13, 110, 13);
+}
